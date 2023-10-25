@@ -1,0 +1,17 @@
+files:
+  - '%UserProfile%\AppData\Local\Temp\Citrix\RTMediaEngineSRV\MediaEngineSRVDebugLogs**.txt'
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\epclient32.dll'
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\epclient64.dll'
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\epinject.sys'
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\EntryProtect.dll'
+processes:
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\MediaEngineService.exe'
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\CDViewer.exe'
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\concentr.exe'
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\wfica32.exe'
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\bgblursvc.exe'
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\AuthManager\AuthManSvr.exe'
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\SelfServicePlugin\SelfService.exe'
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\SelfServicePlugin\SelfServicePlugin.exe'
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\HdxTeams.exe'
+  - '%ProgramFiles(x86)%\Citrix\ICA Client\HdxRtcEngine.exe'
