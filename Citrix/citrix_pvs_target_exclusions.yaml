@@ -1,0 +1,14 @@
+files:  
+  - '.vdiskcache'
+  - 'vdiskdif.vhdx'
+processes:
+  - '%SystemRoot%\System32\drivers\bnistack6.sys'
+  - '%SystemRoot%\System32\drivers\CfsDep2.sys'
+  - '%SystemRoot%\System32\drivers\CVhdBusP6.sys'
+  - '%SystemRoot%\System32\drivers\cnicteam.sys'
+  - '%SystemRoot%\System32\drivers\CVhdMp.sys'
+  - '%ProgramFiles%\Citrix\Provisioning Services\BNDevice.exe'
+  - '%ProgramFiles%\Citrix\Provisioning Services\drivers\BNIstack6.sys'
+  - '%ProgramFiles%\Citrix\Provisioning Services\drivers\CNicTeam.sys'
+  - '%ProgramFiles%\Citrix\Provisioning Services\drivers\CFsDep2.sys'
+  - '%ProgramFiles%\Citrix\Provisioning Services\drivers\CVhdMp.sys'
