@@ -1,0 +1,12 @@
+files:
+  - '%SystemRoot%\System32\drivers\CtxUvi.sys'
+  - '%ProgramFiles%\Citrix\HDX\bin\CitrixLogonCsp.dll'
+processes:
+  - '%ProgramFiles%\Citrix\User Profile Manager\UserProfileManager.exe'
+  - '%ProgramFiles%\Citrix\Virtual Desktop Agent\BrokerAgent.exe'
+  - '%SystemRoot%\System32\drivers\CVhdFilter.sys'
+  - '%ProgramFiles%\Citrix\HDX\bin\CtxSvcHost.exe'
+  - '%ProgramFiles%\Citrix\HDX\bin\ctxgfx.exe'
+  - '%ProgramFiles%\Citrix\HDX\bin\picaSvc2.exe'
+  - '%ProgramFiles%\Citrix\HDX\bin\CpSvc.exe'
+  - '%ProgramFiles(x86)%\Citrix\HDX\bin\WebSocketService.exe'
