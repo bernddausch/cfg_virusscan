@@ -1,0 +1,12 @@
+files:
+  - '%SystemRoot%\ServiceProfiles\NetworkService\HaDatabaseName.mdf'
+  - '%SystemRoot%\ServiceProfiles\NetworkService\HaImportDatabaseName.mdf'
+  - '%SystemRoot%\ServiceProfiles\NetworkService\HaDatabaseName_log.ldf'
+  - '%SystemRoot%\ServiceProfiles\NetworkService\HaImportDatabaseName_log.ldf'
+processes:
+  - '%ProgramFiles%\Citrix\Broker\Service\BrokerService.exe'
+  - '%ProgramFiles%\Microsoft SQL Server\150\LocalDB\Binn\sqlservr.exe'
+  - '%ProgramFiles%\Citrix\Broker\Service\HighAvailabilityService.exe'
+  - '%ProgramFiles%\Citrix\ConfigSync\ConfigSyncService.exe'
+folders:
+  - '%ProgramData%\Citrix\Broker\Cache'
