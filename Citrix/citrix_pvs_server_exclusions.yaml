@@ -1,9 +1,4 @@
 files:
-  - '*.vhd'
-  - '*.avhd'
-  - '*.vhdx'
-  - '*.pvp'
-  - '*.lok'
   - '%SystemRoot%\System32\drivers\CvhdBusP6.sys'
   - '%SystemRoot%\System32\drivers\CVhdMp.sys'
   - '%SystemRoot%\System32\drivers\CfsDep2.sys'
@@ -20,3 +15,12 @@ processes:
   - '%ProgramFiles%\Citrix\Provisioning Services\BNPXE.exe'
   - '%ProgramFiles%\Citrix\Provisioning Services\CdfSvc.exe'
   - '%ProgramFiles%\Citrix\Provisioning Services\BNAbsService.exe'
+extensions:  
+  - '.VHD'
+    # Need to check if the content of the files are been scaned when mounted
+  - '.AVHD'
+    # Need to check if the content of the files are been scaned when mounted
+  - '.VHDX'
+    # Need to check if the content of the files are been scaned when mounted
+  - '.PVP'
+  - '.LOK'
