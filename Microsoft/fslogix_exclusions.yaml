@@ -3,3 +3,12 @@ extensions:
   # Need to check if the content of the files are been scaned when mounted
   - ".VHDX"
   # Need to check if the content of the files are been scaned when mounted
+processes:
+  - '%ProgramFiles%\FSLogix\Apps\frxdrv.sys'
+  - '%ProgramFiles%\FSLogix\Apps\frxdrvvt.sys'
+  - '%ProgramFiles%\FSLogix\Apps\frxsvc.exe'
+  - '%Program Files%\FSLogix\Apps\frxrobocopy.exe'
+folders:
+  - '%ProgramFiles%\FSLogix\Apps\frxdrv.sys'
+  - '%ProgramFiles%\FSLogix\Apps\frxdrvvt.sys'
+  - '%ProgramFiles%\FSLogix\Apps\frxsvc.exe'
