@@ -17,11 +17,15 @@ extensions:
   - '.VMD'
   - '.VMS'
   - '.MDB'
+  - '.BTV'
+  - '.DB'
 processes:
   - '%DATEVPP%\PROGRAMM\K0005000\Arbeitsplatz.exe'
   - '%DATEVPP%\PROGRAMM\RWAPPLIC\irw.exe'
   - '%DATEVPP%\PROGRAMM\B0000522\logfilter.exe'
+  - '%DATEVPP%\DATEV\PROGRAMM\WP\wpwin.exe'
 folders:
   - '%DATEVPP%\PROGRAMM\K0005000\Arbeitsplatz.exe'
   - '%DATEVPP%\PROGRAMM\RWAPPLIC\irw.exe'
   - '%DATEVPP%\PROGRAMM\B0000522\logfilter.exe'
+  - '%DATEVPP%\DATEV\PROGRAMM\WP\wpwin.exe'
